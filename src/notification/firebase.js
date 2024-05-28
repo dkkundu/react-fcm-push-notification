@@ -8,13 +8,13 @@ import { getMessaging, getToken } from "firebase/messaging";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCH-9qk4-0bZiV6bCL0uiUCWNNJrWAvHEM",
-  authDomain: "sentinel-dk-2sl.firebaseapp.com",
+  apiKey: "AIzaSyCH-9qk4-CWNNJrWAvHEM",
+  authDomain: "senti2sl.firebaseapp.com",
   projectId: "sentinel-dk-2sl",
-  storageBucket: "sentinel-dk-2sl.appspot.com",
-  messagingSenderId: "334334586230",
-  appId: "1:334334586230:web:3a14c3646d47c53f985e57",
-  measurementId: "G-QQCRN7Z0YN"
+  storageBucket: "sentinel-pot.com",
+  messagingSenderId: "33486230",
+  appId: "1:334334586ii230:web:3a14c3646d47c53f985e57",
+  measurementId: "G-QQCRii0YN"
 };
 
 // Initialize Firebase
@@ -29,7 +29,7 @@ export const generateToken = async () =>{
         console.log("sucessfully granted ...")
         try {
             const token = await getToken(messaging, {
-                vapidKey: "BMMHyaxwQLOr_CysICUiSvutxvQ0AGp9LxRozvIB_ktGuGoreEucqmsgfFJGtD8bvdlrTICqLHuqw6UBPoTnDHM"
+                vapidKey: "555"
             });
             console.log(token);
         } catch (error) {
