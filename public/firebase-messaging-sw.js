@@ -8,14 +8,14 @@ importScripts('https://www.gstatic.com/firebasejs/8.10.1/firebase-messaging.js')
 // your app's Firebase config object.
 // https://firebase.google.com/docs/web/setup#config-object
 firebase.initializeApp({
-    apiKey: "AIzaSyCH-9qk4-0bZiV6bCL0uiUCWNNJrWAvHEM",
-    authDomain: "sentinel-dk-2sl.firebaseapp.com",
-    projectId: "sentinel-dk-2sl",
-    storageBucket: "sentinel-dk-2sl.appspot.com",
-    messagingSenderId: "334334586230",
-    appId: "1:334334586230:web:3a14c3646d47c53f985e57",
-    measurementId: "G-QQCRN7Z0YN"
-  });
+  apiKey: "AIzaSyCH-9qk4-CWNNJrWAvHEM",
+  authDomain: "senti2sl.firebaseapp.com",
+  projectId: "sentinel-dk-2sl",
+  storageBucket: "sentinel-pot.com",
+  messagingSenderId: "33486230",
+  appId: "1:334334586ii230:web:3a14c3646d47c53f985e57",
+  measurementId: "G-QQCRii0YN"
+});
 
 // Retrieve an instance of Firebase Messaging so that it can handle background
 // messages.
